@@ -1,0 +1,96 @@
+canvas{
+    border-radius: 0px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    background-image:linear-gradient(rgba(0,56,80,0.7), rgba(0,156,200,0.5)), url('piano.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0px;
+    font-family: 'Exo 2', sans-serif;
+   letter-spacing: 1px;
+    border-bottom: white;
+    border-style: solid;
+    border-bottom-width: 10px;
+}
+h4{
+    display: block;
+    border: white;
+    border-style: solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+    color:black;
+    font-family: 'Exo 2', sans-serif;   
+    background-color: azure;
+}
+li {
+    float: left;
+}
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(0,156,200,127.5);
+    bottom:0;
+    width: 100%;    
+}
+.footer{
+  padding-top: 20px;  
+  padding-bottom: 20px;  
+  color:white;
+  font-family: 'Exo 2', sans-serif; 
+  font-size: 20px;
+  display: none;
+}
+button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;   
+    font-family: 'Exo 2', sans-serif;   
+    border-right-style: solid;
+    border-right-color: white;
+    border-right-width: 5px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 5px;
+}
+#points{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;  
+    color: white;
+    font-family: 'Exo 2', sans-serif; 
+    border-right-style: solid;
+    border-right-color: white;
+    border-right-width: 0px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 5px;
+}
+.footer:hover{
+    background-color: white; 
+    color:rgba(0,156,200,127.5);   
+}
